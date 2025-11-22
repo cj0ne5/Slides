@@ -1,6 +1,6 @@
-{% with title="DRAFT: Building an Integrated CS / WebDev Pathway with Python"
+{% with title="Building an Integrated CS / WebDev Pathway with 🐍"
     ,date="PyCon US 2025 Education Summit"
-    ,authors="Jeff Elkner | Chris Jones | The ACC Django Girls"
+    ,authors="Jeff Elkner | Chris Jones | Monica Lozano Caldera | AT py.grlpwr"
 %}
 {% include 'components/title_slide.md' %}
 {% endwith %}
@@ -18,6 +18,11 @@
 
 ![](../images/grace_hopper_center.jpg)
 
+## DEI @ Grace Hopper
+
+- STEM Girls Cohort
+    - One of our initiatives: ACC py.grlpwr
+
 ## Radical Transparency
 
 You can find everything we do (including these slides) on our website:
@@ -26,11 +31,16 @@ You can find everything we do (including these slides) on our website:
 
 # CS @ The Grace Hopper Center
 
-## Overview
+## Dual Enrollment
 
-![](../images/apscs_acc_pathway.png)
+- We're both Adjuncts at Northern Virginia Community College ("NOVA")
 
-Interactive version: <https://apscs.org>
+- Our students:
+    - Earn normal high school credits
+    - Sit for industry certification tests
+    - Earn 6 college credits per year-long class
+    - Connect with resources and faculty at NOVA
+    - Graduate high school with an A.S. in CS 
 
 ## Integrated Pathway
 
@@ -38,7 +48,13 @@ Interactive version: <https://apscs.org>
 - Strict pre-requisites
 - Python as our "lingua franca"
 - Emphasis on full-stack web development
-- Dual Enrolled - Students graduate high school with an A.S. in CS
+
+## Our Courses
+
+![](../images/apscs_acc_pathway.png)
+
+Interactive version: <https://apscs.org/index.html?school=acc>
+
 
 # Project Based Learning
 
@@ -50,6 +66,12 @@ Interactive version: <https://apscs.org>
  
 ## In Practice 
 
-(This part to be presented by ACC Django Girls)
+(This part to be presented by AT py.grlpwr)
 
-TODO: Blu and team will tell about our projects
+- Anupama | Blu | Fatima | Giselle | Lucy
+- A few of this year's projects:
+    - Arlington 2050 Survey Data Analysis
+    - Nova Web Development, Jetro Web Development, Worker Co-ops
+    - Django Reservation Systems
+        - <https://culinary.gracehopper.center>
+        - <https://cosmetology.gracehopper.center>

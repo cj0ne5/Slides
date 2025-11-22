@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Chris Jones">
+  <title>Welcome to DE Web Design</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-drawer@0.1.3/dist/drawer.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4/dist/theme/black.css" id="theme">
+  <style>
+  /*
+  .slides {
+      font-size: 1em;
+  }
+  */
+  .reveal ul {
+      display: block;
+  }
+  .reveal ol {
+      display: block;
+  }
+  /*
+  img {
+      max-height: 350px !important;
+  }
+  */
+
+  figcaption {
+      font-size: 0.6em !important;
+      font-style: italic !important;
+  }
+
+  .subtitle {
+      font-style: italic !important;
+  }
+
+  .date {
+      font-size: 0.75em !important;
+  }
+
+  .image-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 0 4px;
+  }
+
+  .image-row img{
+      margin-top: 8px;
+      vertical-align: middle;
+      width: auto;
+      height: 500px;
+  }
+    
+  /* Create four equal columns that sits next to each other */
+  .image-column {
+  flex: 30%;
+  max-width: 30%;
+  max-height: 100%;
+  padding: 0 4px;
+  }
+
+  .image-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: auto;
+  max-height: 400px;
+  }
+
+  .image-column-2 {
+  flex: 45%;
+  max-width: 45%;
+  padding: 0 4px;
+  }
+
+  .image-column-2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+  .container{
+      display: flex;
+  }
+  .col{
+      flex: 1;
+  }
+  .col + .col {
+      border-left: solid 1px white;
+  }
+
+
+  pre.mermaid {
+      font-family: 'trebuchet ms', verdana, arial;
+  }
+  /*
+  .mermaid svg {
+      padding: 0;
+      margin: 0;
+      min-height: 700px;
+      min-width:100%;
+      max-height:80%;
+      height:auto;
+  }
+
+  .mermaid svg .label-container{
+      container-type: inline-size;
+  }
+
+  .mermaid svg .nodeLabel{
+      font-size: 10px;
+  }
+  */
+
+  </style>
+  <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      $(document).ready(function () {
+    
+      
+      mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  });
+      </script>
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+      </script>
+  <!--<link rel="stylesheet" href="https://www.whscs.net/plugin/subtitles/subtitles.css">-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Welcome to DE Web Design</h1>
+  <p class="author">Chris Jones</p>
+  <p class="date">First Day Talk</p>
+</section>
+
+<section>
+<section id="be-here-now" class="title-slide slide level1">
+<h1>BE HERE NOW</h1>
+
+</section>
+<section id="be-here-now-1" class="slide level2">
+<h2>Be here now</h2>
+<p>Class will start in 5 minutes</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hso3oR8PJss?si=i5uHSvZXJ8no66M2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</section></section>
+<section>
+<section id="about-me" class="title-slide slide level1">
+<h1>About Me</h1>
+
+</section>
+<section id="hi---im-chris" class="slide level2">
+<h2>Hi - I’m Chris</h2>
+<div class="image-row">
+<div class="image-column">
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/me.png" alt="this is a picture of me" />
+<figcaption aria-hidden="true">this is a picture of me</figcaption>
+</figure>
+</div>
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/me_and_cody_6months.png" alt="I’m a dad" />
+<figcaption aria-hidden="true">I’m a dad</figcaption>
+</figure>
+</div>
+</div>
+<div class="image-column">
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/sourdough.png" alt="I like to make bread" />
+<figcaption aria-hidden="true">I like to make bread</figcaption>
+</figure>
+</div>
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/gaia_project.png"
+alt="I like to play board games" />
+<figcaption aria-hidden="true">I like to play board games</figcaption>
+</figure>
+</div>
+</div>
+<div class="image-column">
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/jelly.png" alt="I love my cat" />
+<figcaption aria-hidden="true">I love my cat</figcaption>
+</figure>
+</div>
+<div class="element: fragment fade-in">
+<figure>
+<img data-src="images/bike_race.png" alt="I like to ride bikes" />
+<figcaption aria-hidden="true">I like to ride bikes</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="my-computer-science-journey"
+class="title-slide slide level1">
+<h1>My Computer Science Journey</h1>
+
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<div class="mermaid">
+timeline
+    title My Computer Science Journey
+    2008 : Took AP CS A
+    2009 : Started my CS Major at UVA
+    2010 : First internship - Java
+    2012 : Second internship - Databases at NASA
+    2013 : Graduated UVA, started my first job
+    2021 : Masters Degree - Systems Engineering at Virginia Tech
+    2022 : Started teaching at Wakefield
+</div>
+</section>
+<section id="i-took-ap-computer-science-a" class="slide level2">
+<h2>2008(?) - I took AP Computer Science A</h2>
+<ul>
+<li>I just took it for the AP credit</li>
+<li>I had no programming experience before this</li>
+<li>I loved it!</li>
+</ul>
+</section>
+<section id="started-my-cs-major-at-uva" class="slide level2">
+<h2>2009 : Started my CS Major at UVA</h2>
+<ul>
+<li>I loved UVA <img data-src="images/ecomod.png" alt="ecoMOD" /></li>
+</ul>
+</section>
+<section id="first-internship---java" class="slide level2">
+<h2>2010 : First internship - Java</h2>
+</section>
+<section id="second-internship---databases-at-nasa"
+class="slide level2">
+<h2>2012 : Second internship - Databases at NASA</h2>
+<figure>
+<img data-src="images/rbsp.jpg" alt="RBSP" />
+<figcaption aria-hidden="true">RBSP</figcaption>
+</figure>
+</section>
+<section id="graduated-uva-started-my-first-job" class="slide level2">
+<h2>2013 : Graduated UVA, started my first job</h2>
+<figure>
+<img data-src="images/apt_potty.jpg" alt="My first job" />
+<figcaption aria-hidden="true">My first job</figcaption>
+</figure>
+</section>
+<section id="my-actual-first-job" class="slide level2">
+<h2>2013 : My actual first job</h2>
+<figure>
+<img data-src="images/wapo_apt.png" alt="APT" />
+<figcaption aria-hidden="true">APT</figcaption>
+</figure>
+</section>
+<section id="masters-degree---systems-engineering-at-virginia-tech"
+class="slide level2">
+<h2>2021 : Masters Degree - Systems Engineering at Virginia Tech</h2>
+</section>
+<section id="started-teaching-at-wakefield" class="slide level2">
+<h2>2022 : Started teaching at Wakefield</h2>
+<figure>
+<img data-src="images/cody_first_day.jpeg"
+alt="Cody on the first day of school 2022" />
+<figcaption aria-hidden="true">Cody on the first day of school
+2022</figcaption>
+</figure>
+</section>
+<section id="today" class="slide level2">
+<h2>2025 : Today</h2>
+<figure>
+<img data-src="images/cody_owl.jpg"
+alt="Cody on the first day of school 2025" />
+<figcaption aria-hidden="true">Cody on the first day of school
+2025</figcaption>
+</figure>
+</section></section>
+<section>
+<section id="course-flow-chart" class="title-slide slide level1">
+<h1>Course Flow Chart</h1>
+
+</section>
+<section id="cs-courses-in-aps" class="slide level2">
+<h2>CS Courses in APS</h2>
+<p><img data-src="images/aps_cs_courses_new.png" /></p>
+</section></section>
+<section>
+<section id="first-some-basic-agreements"
+class="title-slide slide level1">
+<h1>First, some basic agreements</h1>
+
+</section>
+<section id="things-i-believe" class="slide level2">
+<h2>Things I believe</h2>
+<ul>
+<li>Computer programming is super fun!</li>
+<li>The world needs more computer programmers
+<ul>
+<li>You don’t have to become a computer programmer - Everyone would
+benefit from understanding computer programming</li>
+</ul></li>
+<li>EVERYONE can be good at computer programming
+<ul>
+<li>You don’t need to be great at math, science, or any other subject to
+be a great computer programmer</li>
+</ul></li>
+<li>EVERYONE can succeed in this class
+<ul>
+<li>And if you succeed in this class, you will become a good computer
+programmer</li>
+</ul></li>
+<li>If you don’t understand something in this class, it’s probably my
+fault, not yours</li>
+</ul>
+</section>
+<section id="our-goal-be-a-great-software-team" class="slide level2">
+<h2>Our Goal: Be a great software team</h2>
+<ul>
+<li>Google’s “Project Aristotle”</li>
+<li>One goal - answer the question “What makes a perfect team”</li>
+<li>Spent two years, interviewed 37,000 employees</li>
+<li>What do you think they learned?</li>
+</ul>
+</section>
+<section id="psychological-safety" class="slide level2">
+<h2>Psychological Safety</h2>
+<p><img data-src="images/psych_safety.jpg" /></p>
+</section>
+<section id="my-goals" class="slide level2">
+<h2>My Goals</h2>
+<ol type="1">
+<li>Safety</li>
+<li>Teach Computer Programming</li>
+<li>Teach Workplace Skills</li>
+<li>Have Fun!</li>
+<li>Assign Grades and Assess Competencies</li>
+</ol>
+</section>
+<section id="workplace-readiness" class="slide level2">
+<h2>Workplace Readiness</h2>
+<p>A requirement of this course</p>
+<p>We’ll talk about jobs, learn how to make resumes, etc</p>
+<p>Practice professional communication (I’m not your “bruh”)</p>
+</section></section>
+<section>
+<section id="class-expectations" class="title-slide slide level1">
+<h1>Class Expectations</h1>
+
+</section>
+<section id="put-your-phones-away" class="slide level2">
+<h2>Put your phones away</h2>
+<ul>
+<li>Computers and headphones too</li>
+<li>During instruction, I have no patience for this</li>
+<li>All work is group work, so no headphones/music</li>
+<li>But I’ll play music, and suggestions are welcome!</li>
+</ul>
+</section></section>
+<section>
+<section id="welcome-to-college-academic-expectations"
+class="title-slide slide level1">
+<h1>Welcome to college! Academic expectations</h1>
+
+</section>
+<section id="dual-enrollment" class="slide level2">
+<h2>Dual Enrollment</h2>
+<ul>
+<li>You are taking two classes at the same time</li>
+<li>You get academic credit from BOTH APS and NOVA for this class</li>
+<li>At the same time, you have to satisfy expectations for both</li>
+<li>This is a big commitment! Today you’ll sign a “Dual Enrollment
+Contract”</li>
+</ul>
+</section>
+<section id="a-few-specific-things-to-know" class="slide level2">
+<h2>A few specific things to know</h2>
+<ul>
+<li>No Retakes</li>
+<li>No Late Work</li>
+<li>Grades: Semester ONLY
+<ul>
+<li>Q1/Q3 APS Report Cards: Think of them like progress reports</li>
+</ul></li>
+<li>Drop/Withdrawal Rules</li>
+<li>Different accommodation rules</li>
+</ul>
+</section>
+<section id="flipped-classroom" class="slide level2">
+<h2>“Flipped” Classroom</h2>
+<ul>
+<li>You should learn the material on your own</li>
+<li>Class time is not for lecturing, it’s for practicing</li>
+<li>Reading assignments every day, reading quizzes at the beginning of
+every class</li>
+</ul>
+</section>
+<section id="let-me-know-if-you-need-help" class="slide level2">
+<h2>Let me know if you need help!</h2>
+<ul>
+<li>I try to talk one-on-one with every student every day</li>
+<li>You get support from APS and NOVA</li>
+</ul>
+</section>
+<section id="pause---read-the-de-expectations-contract"
+class="slide level2">
+<h2>Pause - Read the DE Expectations Contract</h2>
+<p>Find it on the course homepage</p>
+</section></section>
+<section>
+<section id="grading---web-design" class="title-slide slide level1">
+<h1>Grading - Web Design</h1>
+
+</section>
+<section id="first---what-does-a-grade-mean" class="slide level2">
+<h2>First - what does a grade mean?</h2>
+<p>“An inadequate report of an inaccurate judgment by a biased and
+variable judge of the extent to which a student has attained an
+undefined level of mastery of an unknown proportion of an indefinite
+material”</p>
+<ul>
+<li>Paul Dressel (1983)</li>
+</ul>
+</section>
+<section id="formative-vs-summative" class="slide level2">
+<h2>Formative vs Summative</h2>
+<ul>
+<li>Formative: assessment <strong>for</strong> learning
+<ul>
+<li>eg. most classwork, warmups, exit tickets</li>
+</ul></li>
+<li>Summative: assessment <strong>of</strong> learning
+<ul>
+<li>eg. tests, projects</li>
+</ul></li>
+</ul>
+</section>
+<section id="pop-quiz---formative-or-summative" class="slide level2">
+<h2>Pop quiz - formative or summative?</h2>
+<ul>
+<li>This pop quiz</li>
+<li>A warmup quiz</li>
+<li>A daily classwork coding assignment</li>
+<li>An end-of-unit multiple choice test</li>
+<li>A 2-week project</li>
+</ul>
+</section>
+<section id="your-grade-is-almost-entirely-summative"
+class="slide level2">
+<h2>Your grade is almost entirely Summative!</h2>
+<ul>
+<li>20%: We’ll have formative quizzes most days, and coding practice in
+class</li>
+<li>60%: Most of your grade will come from tests, projects</li>
+<li>20%: final exam</li>
+<li>I will make this clear throughout the year</li>
+<li>Final APS Grade for the year: 50% Semester 1, 50% Semester 2</li>
+</ul>
+</section>
+<section id="points-system" class="slide level2">
+<h2>Points system</h2>
+<ul>
+<li>I’ll weight different assignments differently</li>
+<li>I’ll explain more about this as the year goes on</li>
+</ul>
+</section></section>
+<section>
+<section id="some-more-about-this-class"
+class="title-slide slide level1">
+<h1>Some more about this class</h1>
+
+</section>
+<section id="tons-of-resources" class="slide level2">
+<h2>Tons of resources</h2>
+<ul>
+<li>I don’t like to reinvent things, so we’ll use a lot of these
+resources</li>
+<li>But I also don’t have a single website I love, so we’ll bounce
+around a lot</li>
+</ul>
+</section></section>
+<section>
+<section id="lets-talk-about-ai" class="title-slide slide level1">
+<h1>Let’s talk about AI</h1>
+
+</section>
+<section id="generative-ai---rule-in-my-class" class="slide level2">
+<h2>Generative AI - Rule in my class</h2>
+<ul>
+<li>I think it’s a great thing, and an important skill for you to
+learn</li>
+<li>We’ll have a lot of fun with these tools this year</li>
+<li>Unless I say so, do not use it on any assignments</li>
+<li>Discussion: If you do use generative AI tools - will I know?</li>
+</ul>
+</section>
+<section id="generative-ai---accountability" class="slide level2">
+<h2>Generative AI - Accountability</h2>
+<ul>
+<li>You must understand all of the code you submit</li>
+<li>A big part of your grade will include:
+<ul>
+<li>evidence you produce as you’re writing your code (git log - we’ll
+talk more about this later in the week)</li>
+<li>in class writing where you’ll explain how your code works</li>
+</ul></li>
+</ul>
+</section>
+<section id="heres-some-food-for-thought" class="slide level2">
+<h2>Here’s some food for thought</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QxuyfWoVV98?si=fcQ7DYP7yBIkJQM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</section></section>
+<section>
+<section id="todays-assignment" class="title-slide slide level1">
+<h1>Today’s Assignment</h1>
+
+</section>
+<section id="todays-assignment-1" class="slide level2">
+<h2>Today’s Assignment:</h2>
+<ul>
+<li>Access the course website: ict.gracehopper.center</li>
+<li>Find and complete today’s assignment</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4/dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js-drawer@0.1.3/dist/drawer.js"></script>
+
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        //dependencies: [
+        //    { src: 'https://www.whscs.net/plugin/subtitles/subtitles.js', async: true }
+        //],
+
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 50,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+
+        height: 1080,
+        drawer: {
+pathSize: 1, // (optional) path size in px, default 4
+  },
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom,
+          RevealDrawer
+        ]
+      });
+    </script>
+    </body>
+</html>
