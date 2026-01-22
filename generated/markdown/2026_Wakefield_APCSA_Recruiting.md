@@ -47,17 +47,23 @@
 - AP CS Principles
 - Computer Programming Advanced
 
-## Dual Enrollment at ACC
+## Dual Enrollment at ACC vs AP
 
 - Strict pre-requisite sequence
 - You are taking two classes at the same time
 - You get academic credit from BOTH APS and NOVA for this class
 - At the same time, you have to satisfy expectations for both
 - This is a big commitment! You'll sign a "Dual Enrollment Contract"
-- Expect:
-    - Challenging classes
-    - College policies: Semester grading, no retakes, no late work
-    - "Flipped Classroom" - homework every day, usually reading
+
+
+## What to expect in our classes
+
+- You'll never be bored!
+- Lots of projects
+- College policies: Semester grading, no retakes, no late work
+- "Flipped Classroom" - homework every day, usually reading
+- Radical transparency - everything is public, we don't use Canvas
+- Check out our website: ict.gctaa.net
 
 
 ## Course Sequence

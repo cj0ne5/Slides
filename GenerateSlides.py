@@ -48,17 +48,16 @@ env = Environment(
     lstrip_blocks=True,
 )
 
-# I can't get the -v/--variable arguments to work
-# I know this is bad, but I just manually changed
-# these values in the template
+# Adding -V for pandoc variables (uppercase V for theme support)
 pdoc_args = [
     "-s",
     "--include-in-header=style.css",
     "--include-in-header=scripts.html",
     "--template=default_plus_chalkboard.revealjs",
-    "--variable=width:1920",
-    "--variable=height:1080",
-    "--variable=viewDistance:50",
+    "-V", "theme=dracula",
+    "-V", "width=1920",
+    "-V", "height=1080",
+    "-V", "viewDistance=50",
 ]
 
 for root, dirs, files in os.walk("./templates"):
